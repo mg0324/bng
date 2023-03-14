@@ -9,4 +9,4 @@
 ## 请联系我
 添加微信时，请发送`帮你购`关键字。
 
-![](http://qn.meiflower.top/bng/wx.jpg)
+![](https://mg.meiflower.top/oss/bng/wx.jpg)
