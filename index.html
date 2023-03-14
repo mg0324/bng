@@ -17,6 +17,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/static/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/static/icon/favicon-16x16.png">
     <link rel="manifest" href="/static/icon/site.webmanifest">
+    <style>
+      .el-menu-item.is-active {
+          color: #F08;
+      }
+    </style>
   </head>
   <body>
     <div id="vue"></div>
@@ -24,7 +29,8 @@
         window.$mangodoc = {
             title: '帮你购',
             // repo: 'https://github.com/mg0324/bng',
-            footer: '<span>Mango Mei &copy; 2023 </span> 香港优购，选帮你购！',
+            footer: '<span>帮你购 &copy; 2023 </span> 香港优购，选帮你购！',
+            themeColor: "#F08",
             // giscus评论
             // giscus:{
             //   repo: "mg0324/docsify-comments",
@@ -48,22 +54,22 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/element-ui/lib/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mangodoc@1.0.4/dist/mangodoc.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc@1.0.6/dist/mangodoc.min.js"></script>
     <!-- giscus评论  -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-giscus@1.0.1/dist/giscus.css">
     <script src="https://cdn.jsdelivr.net/npm/mangodoc-giscus@1.0.1/dist/mangodoc-giscus.min.js"></script> -->
     <!-- toc文章目录  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-toc@1.0.1/dist/toc.css">
-    <script src="https://cdn.jsdelivr.net/npm/mangodoc-toc@1.0.1/dist/mangodoc-toc.min.js"></script>  
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-toc@1.0.2/dist/toc.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc-toc@1.0.3/dist/mangodoc-toc.min.js"></script>  
     <!-- to top  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-top@1.0.1/dist/top.css">
-    <script src="https://cdn.jsdelivr.net/npm/mangodoc-top@1.0.1/dist/mangodoc-top.min.js"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-top@1.0.2/dist/top.css">
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc-top@1.0.2/dist/mangodoc-top.min.js"></script> 
     <!-- imgview插件  -->
     <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/mangodoc-imgview@1.0.4/dist/imgview.css">
-    <script src="https://unpkg.com/mangodoc-imgview@1.0.4/dist/mangodoc-imgview.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mangodoc-imgview@1.0.4/dist/imgview.css">
+    <script src="https://cdn.jsdelivr.net/npm/mangodoc-imgview@1.0.4/dist/mangodoc-imgview.min.js"></script>
 
     <!-- java语法高亮 -->
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js"></script> -->
   </body>
 </html>
