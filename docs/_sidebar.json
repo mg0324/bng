@@ -7,24 +7,10 @@
         "icon": "el-icon-s-home"
     },
     {
-        "title": "奶粉",
+        "title": "必备药品",
         "level": 1,
         "icon": "el-icon-star-on",
-        "children": [
-            {
-                "title": "主流前端",
-                "href": "#/all",
-                "target": "_self",
-                "level": 2,
-                "icon": "el-icon-s-promotion"
-            },
-            {
-                "title": "网络模型",
-                "href": "#/network",
-                "target": "_self",
-                "level": 2,
-                "icon": "el-icon-s-tools"
-            }
-        ]
+        "href": "#/product/medicine",
+        "target": "_self"
     }
 ]
